@@ -1,4 +1,4 @@
-# cz_grf
+# cz_grf: Calvin Zhang's Generalised Random Forest
 
 1. General Tree:
 
