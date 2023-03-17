@@ -1,13 +1,13 @@
 import numpy as np
 cimport numpy as np
 
-from c_criterion cimport Criterion
+from cy_criterion cimport Criterion
 
-from c_tree cimport DTYPE_t
-from c_tree cimport DOUBLE_t
-from c_tree cimport SIZE_t
-from c_tree cimport INT32_t
-from c_tree cimport UINT32_t
+from cy_tree cimport DTYPE_t
+from cy_tree cimport DOUBLE_t
+from cy_tree cimport SIZE_t
+from cy_tree cimport INT32_t
+from cy_tree cimport UINT32_t
 
 cdef struct SplitRecord:
     SIZE_t feature
