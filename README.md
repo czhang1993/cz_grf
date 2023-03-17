@@ -4,9 +4,9 @@
 
 - Tree (Cython): c_tree.pxd
 
-- Splitter of Tree (Cython): c_tree_splitter.pxd
+- Splitter of Tree (Cython): cy_tree_splitter.pxd (header), cy_tree_splitter.pyx (source)
 
-- Criterion of Tree (Cython): c_tree_criterion.pxd, cy_tree_criterion.pyx
+- Criterion of Tree (Cython): cy_tree_criterion.pxd (header), cy_tree_criterion.pyx (source)
 
 - Tree (Python): py_tree.py
 
@@ -16,7 +16,7 @@
 
 - GRF Tree (Python): py_grf_tree.py
 
-- Criterion of GRF Tree (Cython): c_grf_tree_criterion.pxd
+- Criterion of GRF Tree (Cython): cy_grf_tree_criterion.pxd
 
 <br>
 
