@@ -1,9 +1,9 @@
 import numpy as np
 cimport numpy as np
 
-from c_tree cimport DOUBLE_t
-from c_tree cimport SIZE_t
-from c_tree cimport UINT32_t
+from cy_tree cimport DOUBLE_t
+from cy_tree cimport SIZE_t
+from cy_tree cimport UINT32_t
 
 cdef class Criterion:
     cdef bint proxy_children_impurity
