@@ -1,5 +1,5 @@
 import numpy as np
-from c_grf_tree_criterion import LinearMomentGRFCriterionMSE, LinearMomentGRFCriterion
+from cy_grf_tree_criterion import LinearMomentGRFCriterionMSE, LinearMomentGRFCriterion
 from py_tree import BaseTree
 from sklearn.model_selection import train_test_split
 from sklearn.utils import check_array
@@ -8,8 +8,10 @@ from sklearn.utils.validation import check_is_fitted
 import copy
 
 
-CRITERIA_GRF = {"het": LinearMomentGRFCriterion,
-                "mse": LinearMomentGRFCriterionMSE}
+CRITERIA_GRF = {
+  "het": LinearMomentGRFCriterion,
+  "mse": LinearMomentGRFCriterionMSE
+}
 
 
 class GRFTree(BaseTree):
