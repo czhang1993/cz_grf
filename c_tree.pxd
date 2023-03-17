@@ -1,5 +1,3 @@
-c_tree.pxd
-
 import numpy as np
 cimport numpy as np
 
