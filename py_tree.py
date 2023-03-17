@@ -4,10 +4,10 @@ from math import ceil
 import numpy as np
 from sklearn.base import BaseEstimator
 from sklearn.utils.validation import check_is_fitted
-from c_tree import Tree, DepthFirstTreeBuilder
-from c_tree_splitter import Splitter, BestSplitter
-from c_tree_criterion import Criterion
-import c_tree
+from cy_tree import Tree, DepthFirstTreeBuilder
+from cy_tree_splitter import Splitter, BestSplitter
+from cy_tree_criterion import Criterion
+import cy_tree
 from py_utilities import deprecated
 from sklearn.model_selection import train_test_split
 from sklearn.utils import check_array, check_X_y
