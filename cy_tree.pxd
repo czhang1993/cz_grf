@@ -7,8 +7,8 @@ ctypedef np.npy_intp SIZE_t
 ctypedef np.npy_int32 INT32_t
 ctypedef np.npy_uint32 UINT32_t
 
-from c_splitter cimport Splitter
-from c_splitter cimport SplitRecord
+from cy_splitter cimport Splitter
+from cy_splitter cimport SplitRecord
 
 cdef struct Node:
     SIZE_t left_child
