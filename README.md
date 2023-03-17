@@ -6,7 +6,7 @@
 
 - Splitter of Tree (Cython): c_tree_splitter.pxd
 
-- Criterion of Tree (Cython): c_tree_criterion.pxd
+- Criterion of Tree (Cython): c_tree_criterion.pxd, cy_tree_criterion.pyx
 
 - Tree (Python): py_tree.py
 
