@@ -1,13 +1,13 @@
 import numpy as np
 cimport numpy as np
 
-from c_tree cimport DTYPE_t
-from c_tree cimport DOUBLE_t
-from c_tree cimport SIZE_t
-from c_tree cimport INT32_t
-from c_tree cimport UINT32_t
+from cy_tree cimport DTYPE_t
+from cy_tree cimport DOUBLE_t
+from cy_tree cimport SIZE_t
+from cy_tree cimport INT32_t
+from cy_tree cimport UINT32_t
 
-from c_tree_criterion cimport Criterion, RegressionCriterion
+from cy_tree_criterion cimport Criterion, RegressionCriterion
 
 cdef class LinearMomentGRFCriterion(RegressionCriterion):
     cdef const DOUBLE_t[ : , : : 1] alpha
